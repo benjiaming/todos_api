@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #ecf0f1;
+}
+
+header {
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    color: #aaa;
+}
+h1 span {
+    font-size: 50px
+}
+input[type=text] {
+    background-color: #ecf0f1;
+    border: none;
+    font-size: 25px;
+    outline: none;
+    padding-bottom: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.todo {
+    padding: 10px;
+}
+.todo:hover {
+    background-color: #ddd;
+}
+.done {
+    text-decoration: line-through;
+    color: #aaa;
+}
+.delete {
+    float: right;
+    color: red;
+    opacity: .5;
+}
+.delete:hover {
+    opacity: 1;
+}
